@@ -1,1 +1,304 @@
-Hello World
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet">
+
+    <title>Introducing Hump</title>
+
+    <style>
+        .navbar {
+            border-bottom: 2px solid #8158D6;
+            padding-bottom: 13px;
+            padding-top: 13px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .navbar p {
+            color: white;
+            margin-top: 27px;
+            font-size: 10pt;
+            letter-spacing: 0.85pt;
+            margin-left: 5px;
+        }
+
+       .navbar-light .navbar-brand {
+            color: white;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #F0EDF4;
+            margin-left: 30px;
+        }
+
+        .jumbotron {
+            margin-bottom: -64px;
+            padding-top: 65px;
+        }
+
+        #marquee {
+            line-height: 60pt;
+            font-weight: 550;
+            letter-spacing: 2.5pt;
+        }
+
+        #tagline {
+            line-height: 23pt;
+            margin-top: 25px;
+            margin-bottom: 40px;
+            font-size: 12pt;
+            letter-spacing: 0.85pt;
+        }
+
+        .hump-logo {
+            font-size: 25pt;
+            font-weight: 550;
+            color: white;
+            letter-spacing: 1pt;
+        }
+
+        .bg-purple {
+            background-color: #6c1ed3;
+        }
+
+        .bg-dark-purple {
+            background-color: #5b18b2;
+        }
+
+        .bg-grey {
+            background-color: #EBE9F0;
+        }
+
+        .btn-light-purple {
+            background-color: #8a50de;
+            border: 0px;
+            color: #F0EDF4;
+            font-size: 11pt;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .btn-light-purple:hover {
+            background-color: #9d60f3;
+        }
+
+        .fg-dark-grey {
+            color: #464343;
+        }
+
+        .pad-div {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        body {
+            color: white;
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        hr {
+            border-color: #979797;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            color: #CBBDE6;
+            padding-top: 40px;
+            padding-bottom: 35px;
+        }
+
+        footer p {
+            letter-spacing: 0.55pt;
+            font-size: 11pt;
+        }
+
+        footer a {
+            color: white;
+            margin-left: 50px;
+            font-size: 9pt;
+            letter-spacing: 0.8pt;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        #call-to-action h4 {
+            font-size: 35px;
+            font-weight: 400;
+            line-height: 50px;
+        }
+    </style>
+
+    <link rel="icon" href="static/images/favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-purple">
+
+        <a class="navbar-brand hump-logo" href="#">hump</a><p class="text-uppercase d-none d-sm-block">Instant payments</p>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/w/" id="open-popup4">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/w/" id="open-popup">Sign Up</a>
+                </li>
+            </ul>
+        </div><!-- .navbar-collapse -->
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-purple">
+        <div class="container">
+            <div class="row">
+                <div class="offset-lg-1 col-sm-12 col-md-9 col-lg-7 col-xl-6">
+                    <h1 id="marquee" class="display-4 text-uppercase">Pay your friends.<br>With imaginary<br>internet money.</h1>
+                    <p id="tagline">Introducing <i>Hump</i>. It’s the quickest way to send imaginary money in seconds to anyone with an email address, right from your phone or computer. Get started below.</p>
+                    <button type="button" class="btn btn-primary btn-lg btn-light-purple text-uppercase" id="open-popup2" onclick="location.href='/w/';">Start Humping</button>
+                    <br><br><br><br>
+                </div><!-- .col-sm -->
+                <div class="d-none d-md-block col-md-3 col-lg-4 offset-xl-1 col-xl-4">
+                    <img src="static/images/woman.min.png">
+                </div><!-- .col-sm -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .jumbotron -->
+
+    <div class="container-fluid bg-grey fg-dark-grey pad-div">
+        <div class="row text-center">
+            <div class="offset-0 offset-sm-0 offset-md-1 offset-lg-2 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                <img src="static/images/testimonial_1.min.png">
+            </div>
+            <div class="col-sm-3">
+                <p>
+                <span class="d-none d-sm-block"><br><br><br><br><br>&quot;I was sick of nickle-and-diming my friends every time we went to brunch. So now we just Hump to settle up.&quot;</span></p>
+                <p class="d-none d-sm-block"><strong>- Maggie, millenial</strong></p>
+            </div>
+            <div class="offset-2 col-8 d-block d-sm-none">
+                <p><br>
+                <br>
+                <br>&quot;I was sick of nickle-and-diming my friends every time we went to brunch. So now we just Hump to settle up.&quot;</p>
+                <p><strong>- Maggie, millenial</strong></p>
+            </div>
+        </div><!-- .row -->
+
+        <div class="row text-center">
+            <div class="offset-sm-2 col-sm-3">
+                <p><br>
+                <br>
+                <br>
+                <br>
+                <span class="d-none d-sm-block"><br>&quot;I’m not sure what a Bitcoin is, but with Hump I can settle my debts without spending a penny.&quot;</span></p>
+                <p class="d-none d-sm-block"><strong>- Bruce, hipster</strong></p>
+            </div>
+            <div class="col-sm-5">
+                <img src="static/images/testimonial_2.min.png">
+            </div>
+            <div class="offset-2 col-8 d-block d-sm-none">
+                <p><br>
+                <br>
+                <br>&quot;I’m not sure what a Bitcoin is, but with Hump I can settle my debts without spending a penny.&quot;</p>
+                <p><strong>- Bruce, hipster</strong></p>
+            </div>
+        </div><!-- .row -->
+
+    </div><!-- .container-fluid -->
+
+    <div id="call-to-action" class="container-fluid bg-purple text-center pad-div">
+        <h4>What are you waiting for?<br><i>There is literally no downside</i>.<br>&nbsp;</h4>
+        <button type="button" class="btn btn-primary btn-lg btn-light-purple text-uppercase" id="open-popup3" onclick="location.href='/w/';">Start Humping</button>
+    </div><!-- .container-fluid -->
+
+    <div class="container-fluid bg-grey fg-dark-grey pad-div">
+
+        <div class="row">
+            <div class="offset-1 col-10">
+                <a name="faq"></a>
+                <h1>Frequently<br>Asked<br>Questions.<br>&nbsp;</h1>
+            </div>
+        </div><!-- .row -->
+        
+        <div class="d-none d-sm-flex row">
+            <div class="offset-1 col-sm">
+                <h4>But what <i>is</i> Hump?</h4>
+                <br>
+            </div>
+            <div class="col-sm">
+                <h4>Why would anyone want to use fake money?</h4>
+                <br>
+            </div>
+            <div class="col-sm">
+                <h4>What if I need more Hump coins?</h4>
+                <br>
+            </div>
+            <div class="col-1">
+                &nbsp;
+            </div>
+        </div>
+        <!-- .row -->
+        
+        <div class="row">
+            <div class="offset-1 col-sm">
+                <h3 class="d-sm-none">But what <i>is</i> Hump?</h3>
+                <p>Hump lets you send and receive coins from anyone with an email address. Right now, coins are worth literally nothing. Everyone
+                who signs up gets 2,000 coins.</p>
+            </div>
+            <div class="col-sm offset-1 offset-sm-0">
+                <h3 class="d-sm-none"><br>Why would anyone want to use fake money?</h3>
+                <p>If we’ve learned anything recently, even fake internet money can have very real value.</p>
+            </div>
+            <div class="col-sm offset-1 offset-sm-0">
+                <h3 class="d-sm-none"><br>What if I need more Hump coins?</h3>
+                <p>We’ll be launching a more robust ecosystem im the coming months. Or quite possibly, we never will and you will need to get
+                some coins from your friends.</p>
+            </div>
+            <div class="col-1">
+                &nbsp;
+            </div>
+        </div><!-- .row -->
+
+    </div><!-- .container-fluid -->
+    
+    <footer class="container-fluid bg-dark-purple">
+        <div class="row">
+            <div class="offset-1 col-10">
+                <p><span class="hump-logo">hump</span> <a href="mailto:support@hump.us">Contact Us</a> <a href="https://bitbucket.org/humpcoin/humpcoin/downloads/">Source Code</a></p>
+                <hr>
+                <p>
+                Hump isn't money. Any statements made about the present or future value of
+                any cryptographic token is not an endorsement and should be
+                considered speculation. Investments in cryptographic offerings are inherently
+                risky and should be exercised with caution.
+                </p>
+            </div>
+        </div><!-- .row -->
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
